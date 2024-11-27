@@ -12,5 +12,5 @@ python -m venv {project}
 ```
 
 ```bash
-source tutorial-env/bin/activate
+source {project}/bin/activate
 ```
