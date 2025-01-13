@@ -21,4 +21,5 @@ urlpatterns = [
     path("polls/", include("polls.urls")),
     path("admin/", admin.site.urls),
     path("ecommerce/", include("ecommerce.urls.product_urls")),
+    path("ecommerce/", include("ecommerce.urls.user")),
 ]
