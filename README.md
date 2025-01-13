@@ -28,6 +28,12 @@ python manage.py runserver
 python manage.py startapp {appName}
 ```
 
+## install requirements and dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
 
 # Docker
 
