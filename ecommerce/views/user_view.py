@@ -8,8 +8,6 @@ from ecommerce.models import User
 @api_view(['POST'])
 # @permission_classes([AllowAny])
 def register_user(request):
-    
-    # todo catch unique contraint violation
 
         serializer = UserRegistrationSerializer(data=request.data)
 
