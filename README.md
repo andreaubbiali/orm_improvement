@@ -49,3 +49,9 @@ docker run -d \
   -p 5432:5432 \
   postgres
 ```
+
+
+### cosa fare
+
+creo un gestionale di un ecommerce super grande
+tanti clienti possono guardare i prodotti e vedere le disponibilità
