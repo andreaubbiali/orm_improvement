@@ -4,17 +4,23 @@ Repository to trace improvements about ORM, second level cache and distributed d
 
 # use of venv
 
-https://docs.python.org/3/tutorial/venv.html
+https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 
-create a directory (if doesn't exist) where to place libraries for the project 
+create the venv directory in the project
 ```bash
-python -m venv {project}
+python3 -m venv .venv
 ```
 
+activate virtual environment
 ```bash
-source {project}/bin/activate
+source .venv/bin/activate
 ```
 
+to be sure you are using the virtual environment right, use this command:
+```bash
+which python
+```
+and you should see `.venv/bin/python` in the path
 
 # run the server
 
